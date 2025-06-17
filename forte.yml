@@ -24,12 +24,12 @@ extents84: &extents84
   srs-name: "WGS84"
   srs: "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs"
 db: &db
-  dbname: tilery
+  dbname: osm_tiles
   geometry_field: geometry
   type: postgis
   extent: -20037508,-19929239,20037508,19929239
-  password: null
-  user: tilery
+  password: m4psfor4allg0kop
+  user: postgres
   host: ''
 
 Stylesheet:
